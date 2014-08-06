@@ -49,8 +49,8 @@ services.service('ImageResizerService', function () {
      */
     var resize = function (image) {
         var mainCanvas = document.createElement("canvas");
-        mainCanvas.width = 110;
-        mainCanvas.height = 110;
+        mainCanvas.width = image.width;
+        mainCanvas.height = image.height;
         var ctx = mainCanvas.getContext("2d");
         ctx.drawImage(image, 0, 0, mainCanvas.width, mainCanvas.height);
         var size = 200;
