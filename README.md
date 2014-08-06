@@ -1,7 +1,6 @@
 Angular Image Resizer Service
 =====================
 
-
 A simple and embeddable Angular JS image re-sizing service.
 
   - Easy to embed either as a service or a directive
@@ -10,7 +9,7 @@ A simple and embeddable Angular JS image re-sizing service.
   
 Author
 ----
-Sahan Serasinghe - lk.linkedin.com/in/sahanserasinghe | @sahan91
+Sahan Serasinghe - [lk.linkedin.com/in/sahanserasinghe] | @sahan91
 
 Version
 ----
@@ -19,8 +18,6 @@ Version
 
 Plugins used
 -----------
-
-Dillinger uses a number of open source projects to work properly:
 
 * [jQuery] - jQuery is a fast, small, and feature-rich JavaScript library
 * [ng-flow] - Flow.js html5 file upload extension on angular.js framework
@@ -43,3 +40,9 @@ MIT
 
 
 **Free Software, Hell Yeah!**
+
+[lk.linkedin.com/in/sahanserasinghe]:lk.linkedin.com/in/sahanserasinghe
+[@sahan91]: @sahan91
+[jQuery]:http://jquery.com/
+[ng-flow]:https://github.com/flowjs/ng-flow
+[Twitter Bootstrap]: http://getbootstrap.com/

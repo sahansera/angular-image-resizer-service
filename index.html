@@ -22,7 +22,7 @@
 
 <body>
     <div class="container">
-        <h1>flow image example</h1>
+        <h1>Angular Image Resizer Service - Example</h1>
         <hr class="soften" />
 
         <div ng-controller="ImageThumbnailController">
@@ -36,9 +36,7 @@
                 <a href="#" class="btn" ng-hide="$flow.files.length" flow-btn flow-attrs="{accept:'image/*'}">Select image</a>
                 <a href="#" class="btn" ng-show="$flow.files.length" flow-btn flow-attrs="{accept:'image/*'}">Change</a>
                 <a href="#" class="btn" ng-show="$flow.files.length" ng-click="resizeImage()">Resize</a>
-                <a href="#" class="btn btn-danger" ng-show="$flow.files.length" ng-click="$flow.cancel()">
-        Remove
-      </a>
+                <a href="#" class="btn btn-danger" ng-show="$flow.files.length" ng-click="$flow.cancel()">Remove</a>
             </div>
             <p>
                 Only PNG,GIF,JPG files allowed.
