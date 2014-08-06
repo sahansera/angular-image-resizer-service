@@ -3,6 +3,7 @@
 
 <head>
     <title>Image</title>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
     <script src="js/libs/ng-flow/ng-flow-standalone.min.js"></script>
     <script src="js/app.js"></script>
@@ -20,7 +21,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <h1>flow image example</h1>
         <hr class="soften" />
@@ -35,6 +35,7 @@
             <div>
                 <a href="#" class="btn" ng-hide="$flow.files.length" flow-btn flow-attrs="{accept:'image/*'}">Select image</a>
                 <a href="#" class="btn" ng-show="$flow.files.length" flow-btn flow-attrs="{accept:'image/*'}">Change</a>
+                <a href="#" class="btn" ng-show="$flow.files.length" ng-click="resizeImage()">Resize</a>
                 <a href="#" class="btn btn-danger" ng-show="$flow.files.length" ng-click="$flow.cancel()">
         Remove
       </a>
